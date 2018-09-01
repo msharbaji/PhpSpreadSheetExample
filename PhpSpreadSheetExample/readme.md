@@ -60,11 +60,17 @@ In this project we have three controllers and one service to validate Excel file
 └── User.php
 
 ```
-You can Three controllers TypeAController, TypeBController, and TypeCController and ExcelService under Services folder. Three controller uses one service injected by constructor in these controller. This is a depedency injection example. In ExcelService File you can see an example of phpOffice/PhpSpreadSheet.
+You can see three controllers TypeAController, TypeBController, and TypeCController and ExcelService under Services folder. Three controller uses one service injected by constructor in these controller. This is a depedency injection example, and in ExcelService File you can see an example of phpOffice/PhpSpreadSheet.
 
 to see the demo type these commands below:
 ```
 cd /path/of/this/project
 composer install
 php artisan serve
+```
+open the browser and visit three routes to check validation files put inside storage/public folder
+```
+http://localhost:8000/typeA
+http://localhost:8000/typeA
+http://localhost:8000/typeA
 ```
