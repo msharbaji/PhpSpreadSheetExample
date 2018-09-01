@@ -71,11 +71,12 @@ php artisan serve
 open the browser and visit three routes to check validation files put inside storage/public folder
 ```
 http://localhost:8000/typeA
-http://localhost:8000/typeA
-http://localhost:8000/typeA
+http://localhost:8000/typeB
+http://localhost:8000/typeC
 ```
-    ##### results
-    ![Screenshot](screenshots/Type_A.png)
-    ![Screenshot](screenshots/Type_A.png)
-    ![Screenshot](screenshots/Type_A.png)
+
+<img src="../screenshots/Type_A.png" width=480>
+<img src="../screenshots/Type_B.png" width=480>
+<img src="../screenshots/Type_C.png" width=480>
+
     
