@@ -74,3 +74,8 @@ http://localhost:8000/typeA
 http://localhost:8000/typeA
 http://localhost:8000/typeA
 ```
+    ##### results
+    ![Screenshot](screenshots/Type_A.png)
+    ![Screenshot](screenshots/Type_A.png)
+    ![Screenshot](screenshots/Type_A.png)
+    
