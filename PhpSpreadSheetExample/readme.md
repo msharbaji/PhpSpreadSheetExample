@@ -7,7 +7,7 @@ The PhpSpreadsheet is a library written in pure PHP and providing a set of class
 ## About The Problem
 This Problem to	validate excel file format and its data. For this exercise, you will have to validate two type of excel file Type_A and Type_B .
 
-# General Rules:
+###### General Rules:
 1. Column name that starts with # should not contain	any space.
 2. Column name that	ends with  * is a required column, means it must have a value.
 3. For each	file type, it should validate the header columns name and the amount of columns	it has
