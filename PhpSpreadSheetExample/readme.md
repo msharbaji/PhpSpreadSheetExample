@@ -7,7 +7,7 @@ The PhpSpreadsheet is a library written in pure PHP and providing a set of class
 ## About The Problem
 This Problem to	validate excel file format and its data. For this exercise, you will have to validate two type of excel file Type_A and Type_B .
 
-###### General Rules:
+##### General Rules:
 1. Column name that starts with # should not contain	any space.
 2. Column name that	ends with  * is a required column, means it must have a value.
 3. For each	file type, it should validate the header columns name and the amount of columns	it has
@@ -18,3 +18,45 @@ This Problem to	validate excel file format and its data. For this exercise, you 
         4. Field_D*
         5. Field_E*
 4. The package should be able to validate both .xls and .xlsx file.
+
+## Aims:
+This problem aims to use PhpSpreadSheet in Laravel Framework and showing example of depedency injection that essentialy mean  class dependencies are "injected" into the class via the constructor or, in some cases, "setter" methods.
+
+## Demo:
+In this project we have three controllers and one service to validate Excel file  with the general rule above. This files architecture under app folder.
+```bash
+├── Console
+│   └── Kernel.php
+├── Exceptions
+│   └── Handler.php
+├── Http
+│   ├── Controllers
+│   │   ├── Auth
+│   │   │   ├── ForgotPasswordController.php
+│   │   │   ├── LoginController.php
+│   │   │   ├── RegisterController.php
+│   │   │   └── ResetPasswordController.php
+│   │   ├── Controller.php
+│   │   ├── TypeAController.php
+│   │   ├── TypeBController.php
+│   │   └── TypeCController.php
+│   ├── Kernel.php
+│   └── Middleware
+│       ├── CheckForMaintenanceMode.php
+│       ├── EncryptCookies.php
+│       ├── RedirectIfAuthenticated.php
+│       ├── TrimStrings.php
+│       ├── TrustProxies.php
+│       └── VerifyCsrfToken.php
+├── Providers
+│   ├── AppServiceProvider.php
+│   ├── AuthServiceProvider.php
+│   ├── BroadcastServiceProvider.php
+│   ├── EventServiceProvider.php
+│   ├── ExcelServiceProvider.php
+│   └── RouteServiceProvider.php
+├── Services
+│   └── ExcelService.php
+└── User.php
+
+```
