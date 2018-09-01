@@ -11,7 +11,7 @@ This Problem to	validate excel file format and its data. For this exercise, you 
 1. Column name that starts with # should not contain	any space.
 2. Column name that	ends with  * is a required column, means it must have a value.
 3. For each	file type, it should validate the header columns name and the amount of columns	it has
-    ⋅⋅* For	example, Type_A file should	only contains 5 columns	and	the	header column name should be and follows the following order;
+    ⋅⋅* For	example, Type_A file should	only contains 5 columns	and	the	header column name should be and follows the following order
         1. Field_A*
         2. #Field_B
         3. Field_C
