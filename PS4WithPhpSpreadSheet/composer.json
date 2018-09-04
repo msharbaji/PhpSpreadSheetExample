@@ -1,0 +1,21 @@
+{
+    "name": "PSR4WithSpreadSheet",
+    "description": "A PSR-4 project to validate excel file with some rules.",
+    "keywords": ["PSR-4", "Excel Validation", "PhpSpreadSheet", "Depedency Injection", "PHP"],
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mohamad Abdalbaqi Alsharbaji",
+            "email": "msharbaji@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "phpoffice/phpspreadsheet": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
