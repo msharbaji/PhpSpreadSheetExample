@@ -12,9 +12,17 @@ This example aims to learn how to create PSR-4 autoloader in PHP, and some worki
 
 ## How To Create PSR-4 Package
 So the first thing to do is to create a new directory on your computer that will hold all of the files. For the purpose of this tutorial I will call my package App.
-To create PSR-4 you have init composer by typying this command
-``` composer init```
-and fill the information about the name, keywords, author, type and license. 
+
+The ``composer.json`` file defines meta data about the package. As you can see from the text above, we specify a name, description, license as well as who is responsible for the package.
+
+The three most important sections of this file are ``require``, ``require-dev`` and ``autoload``.
+
+**require** is where you list any dependencies that your package will require.
+
+**require-dev** is where you list any dependencies that are required to develop your package. In this example I’ve listed PHPUnit which will be used for writing tests.
+
+And finally, **autoload** specifies how your package should be autoloaded. Composer can handle autoloading your files, but you need to specify how you want it to work. In this example I’ve specified to use psr-4.
+
 
 ## About The Problem
 This Problem to	validate excel file format and its data. For this exercise, you will have to validate two type of excel file Type_A and Type_B .
